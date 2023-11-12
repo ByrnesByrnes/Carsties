@@ -1,3 +1,5 @@
+"use client";
+
 import { Button } from "flowbite-react";
 import { useParamsStore } from "../hooks/use-params-store";
 import Heading from "./heading";

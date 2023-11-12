@@ -1,9 +1,5 @@
 import Listings from "./auctions/listings";
 
-export default function Home() {
-  return (
-    <div>
-      <Listings />
-    </div>
-  );
-}
+const Home = () => <Listings />;
+
+export default Home;
